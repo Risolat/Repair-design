@@ -1,0 +1,112 @@
+.team{
+  background: rgb(255,255,255);
+  background: linear-gradient(to top, rgba(255,255,255,1) 40%, rgba(19,19,19,1) 40%);
+}
+.center-head-line-4{
+  margin: 20px auto 60px;
+}
+.center-head-line-4::before{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 54px;
+  height: 29px;
+  padding: 0 10px;
+  background: $dark-color url("../img/team.svg") no-repeat center center;
+  background-size: contain;
+  content: "";
+}
+.team-text{
+  width: 460px;
+  padding-bottom: 73px;
+  margin: 0 auto;
+  font-family: $main-font;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #fff;
+}
+.team-list{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  padding-bottom: 130px;
+  margin: 0;
+  list-style-type: none;
+}
+.team-list::after{
+  position: absolute;
+  content: "";
+  width: 55px;
+  height: 2px;
+  top: 95%;
+  margin: 0 auto;
+  background-color: $base-color;
+}
+.team-list__item{
+  position: relative;
+}
+.member-icon{
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  display: block;
+  width: 70px;
+  height: 70px;
+  z-index: 5;
+  background-color: $base-color;
+  box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+}
+.member-icon__img{
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.member-box{
+  position: absolute;
+  top: 270px;
+  left: 20px;
+  width: 233px;
+  background-color: #fff;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.member-name{
+  margin: 0;
+  padding: 20px 20px 10px;
+  font-family: $secondary-font;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: $dark-color;
+}
+.member-job{
+  margin: 0;
+  padding: 20px 20px 25;
+  font-family: F$main-font;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #959595;
+}
+.exp{
+  margin: 0;
+  padding: 13px 21px;
+  font-family: $secondary-font;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: $base-color;
+}
+.team-text__dark{
+  width: 558px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  font-family: $main-font;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: $dark-color;
+}

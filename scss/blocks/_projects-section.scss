@@ -1,0 +1,159 @@
+.projects{
+  position: relative;
+  padding-bottom: 92px;
+  background-color: #131313;
+}
+.projects__container {
+  display: flex;
+}
+.button-outline{
+  display: inline-block;
+  padding: 12px 20px;
+  font-family: 'FuturaDemiC', 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+.projects-about{
+  width: 600px;
+  padding-left: 30px;
+  padding-right: 50px;
+  color: #fff;
+}
+.projects-about__heading{
+  width: 253px;
+  margin: 0;
+  padding-top: 175px;
+  padding-bottom: 34px;
+  font-family: 'Yeseva One', 'Arial', sans-serif;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.projects-about__text{
+  width: 442px;
+  margin: 0;
+  padding-bottom: 45px;
+  font-family: 'FuturaBookC', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.about-completed{
+  display: flex;
+  flex-wrap: wrap;
+}
+.sub-headings__wrapper{
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+}
+.sub-headings{
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: 'Yeseva One', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.sub-headings__text{
+  margin: 0;
+  padding-bottom: 34px;
+  font-family: 'FuturaBookC', 'Arial', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+.slider-links{
+  display: flex;
+  align-items: center;
+}
+.arrow-link{
+  border: none;
+  background: none;
+}
+.arrow-img{
+  margin-right: 30px;
+}
+.button-invisible{
+  border: none;
+  background: none;
+}
+.slider-circle{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.slider-circle-first{
+  background-color: #fff;
+}
+.project-slider__list{
+  display: flex;
+  padding-top: 107px;
+  padding-bottom: 32px;
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0;
+}
+.project-slider__item{
+  margin-right: 60px;
+}
+.project-slider__link{
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+}
+.project-slider__link--active{
+  border-bottom: 2px solid $base-color;
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: $base-color;
+}
+.slider-images{
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+.slider-icon{
+  position: absolute;
+  right: 45px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: $base-color;
+  border-radius: 50%;
+  border: none;
+}
+.slider-icon-arrow{
+  display: block;
+  margin: 0 auto;
+}
+.project-slider__slide {
+  margin-right: 20px;
+}
+.project-slider__img{
+  width: 650px;
+  height: 452px;
+}
+.roject-slider__img2{
+  width: 100px;
+}

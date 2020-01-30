@@ -1,0 +1,169 @@
+.img-formbox{
+  padding-bottom: 322px;
+  background-color: #fff; 
+}
+.img-formbox__container{
+  display: flex;
+}
+.img-formbox__content{
+  position: relative;
+  width: 800px;
+  min-height: 645px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-image: url(../img/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.line1{
+  position: absolute;
+  top: 50px;
+}
+.circle{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  font-family: Yeseva One;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  background-color: $base-color;
+}
+.circle1{
+  top: 110px;
+  left: 350px;
+}
+.circle-text{
+  position: absolute;
+  margin: 0;
+  font-family: FuturaMediumC;
+  font-size: 18px;
+  line-height: 21px;
+  color: #363636;
+}
+.circle-text-1{
+  width: 364px;
+  top: 105px;
+  right: 30px;
+}
+.line2{
+  position: absolute;
+  top: 155px;
+  left: 385px;
+}
+.circle2{
+  top: 220px;
+  left: 422px;
+}
+.circle-text-2{
+  top: 225px;
+  right: 225px;
+}
+.line3{
+  position: absolute;
+  top: 270px;
+  left: 455px;
+}
+.circle3{
+  top: 380px;
+  left: 455px;
+}
+.circle-text-3{
+  top: 385px;
+  right: 170px;
+}
+.line4{
+  position: absolute;
+  top: 430px;
+  left: 430px;
+}
+.circle4{
+  top: 535px;
+  left: 390px;
+}
+.circle-text-4{
+  width: 225px;
+  top: 535px;
+  right: 125px;
+}
+.line5{
+  position: absolute;
+  top: 580px;
+  left: 5px;
+}
+.big-circle-wrapper{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 650px;
+  right: -440px;
+}
+.big-circle{
+  width: 72px;
+  height: 72px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: #E3B873;
+  box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+}
+.inside-circle{
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+.form-col{
+  align-self: flex-end;
+  width: 506px;
+  margin-bottom: 30px;
+  color: #fff;
+  background-color: #131313;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+}
+.form__heading{
+  width: 297px;
+  margin: 0;
+  padding: 27px 0 31px 0;
+  margin: 0 auto;
+}
+.form-sections{
+  display: flex;
+  flex-direction: column;
+  padding-left: 48px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+.form-email{
+  padding-bottom: 10px;
+}
+.formbox-label{
+  padding-bottom: 7px;
+  font-family: FuturaBookC;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.formbox-input{
+  width: 408px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-family: FuturaMediumC;
+  font-size: 18px;
+  line-height: 25px;
+  background-color: #131313;
+}
+.formbox-checkbox{
+  padding-left: 48px;
+}
+.submit-button{
+  margin: 20px 48px 27px 244px;  	
+}
+.service-type{
+    height: 834px;
+    background-image: linear-gradient(120.96deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%), 
+              url("../img/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;          
+}

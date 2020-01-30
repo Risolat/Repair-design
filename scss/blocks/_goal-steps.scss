@@ -1,0 +1,115 @@
+.goal-steps{
+  padding-top: 270px;
+  color: #fff;
+  background-color: $dark-color;
+}
+.goal-steps__container{
+  display: flex;
+}
+.steps-text-wrapper{
+  padding-left: 85px;
+  margin-right: 110px;
+}
+.goal-steps-text{
+  margin: 0;
+  padding-bottom: 18px;
+  font-family: FuturaDemiC;
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.goal-steps__title{
+  width: 200px;
+  margin: 0;
+  padding-bottom: 92px;		
+  font-family: $secondary-font;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: $base-color;
+}
+.slider-counting{
+  margin: 0;
+  padding-bottom: 22px;
+  font-family: $secondary-font;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.goal-steps-subheading{
+  width: 252px;
+  margin: 0;
+  padding-bottom: 16px;
+  font-family: $secondary-font;
+  font-size: 15px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: $base-color;
+}
+.steps-text{
+  width: 337px;
+  margin: 0;
+  padding-bottom: 100px;
+  font-family: $main-font;
+  font-size: 15px;
+  line-height: 25px;
+}
+.arrow-img-slider{
+  margin-right: 5px;
+}
+.slider-buttons{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.slider-circle-first{
+  background-color: #fff;
+}
+.steps-slider{
+  padding-bottom: 70px;
+}
+.steps-slider__list{
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.steps-slider__item{
+  width: 285px;
+  padding: 18px 0;
+}
+.steps-slider__item:nth-child(3n){
+  width: 215px;
+}
+.steps-slider__link{
+  margin: 0;
+  text-decoration: none;
+  color: rgb(107, 107, 107);
+}
+.steps-slider__link--active{
+  color: #fff;
+}
+.steps-slider__count{
+  width: 20px;
+  margin: 0;
+  border-bottom: 1px solid $base-color;
+  font-family: $secondary-font;
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.steps-slider__text{
+  width: 130px;
+  margin: 0;
+  padding-top: 17px;
+  font-family: $main-font;
+  font-size: 15px;
+  line-height: 18px;
+}

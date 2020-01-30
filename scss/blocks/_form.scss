@@ -1,0 +1,64 @@
+.form{
+  background-color: #fff;
+}
+.form__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-group{
+  max-width: 820px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  margin: 0 auto;
+  padding-bottom: 147px;
+}
+.form-group__inputs{
+  display: flex;
+  flex-direction: column;
+}
+.form-labels{
+  padding-bottom: 7px;
+  font-family: FuturaBookC;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(54, 54, 54, 0.5);
+}
+.form-inputs{
+  width: 231px;
+  margin-right: 58px;
+  border: none;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  font-family: FuturaBookC;
+  font-size: 18px;
+  line-height: 24px;
+  color: #363636;
+}
+.form-inputs__phone{
+  margin-right: 50px;
+}
+.submit{
+  padding: 15px 74px;
+  margin-right: 20px;
+  margin-bottom: 45px;
+  border: none;
+  font-family: FuturaDemiC;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #E3B873;
+  box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+  border-radius: 2px;
+}
+.form-group__checkbox input{
+  padding-top: 20px;
+  padding-bottom: 148px;
+  margin-left: 200px;
+  font-family: FuturaBookC;
+  font-size: 16px;
+  line-height: 22px;
+  color: #181818;
+}

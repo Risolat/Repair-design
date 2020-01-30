@@ -1,0 +1,107 @@
+.clients{
+  padding-bottom: 150px;
+  background-color: #fff;
+}
+.center-headings-wrapper--5{
+  margin-bottom: 30px;
+}
+.center-head-line-5{
+  margin: 20px auto 0;
+}
+.center-head-line-5::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 54px;
+  height: 29px;
+  padding: 0 10px;
+  background: #fff url("../img/client.svg") no-repeat center center;
+  background-size: contain;
+  content: "";
+}
+.client-text{
+  width: 390px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  font-family: $main-font;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: $dark-color;
+}
+.client-list{
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  padding-bottom: 230px;
+  margin: 0;
+  list-style-type: none;
+}
+.client-list__item{
+  position: relative;
+  width: 376px;
+  padding: 15px 15px 80px;
+  background: #fff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+.client-info__wrapper{
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.client-info__img{
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.client-info__name{
+  width: 178px;
+  margin: 0;
+  font-family: $secondary-font;
+  font-size: 18px;
+  line-height: 23px;
+  color: $dark-color;
+}
+.client-list__comments{
+  margin: 0;
+  font-family: $base-color;
+  font-size: 15px;
+  line-height: 180%;
+  color: #959595;
+}
+.span-wrapper{
+  position: absolute;
+  display: flex;
+  width: 290px;
+  margin: 0;
+  bottom: -30px;
+  left: 0;
+  box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+.client-works{
+  display: flex;
+  align-items: center;
+  width: 155px;
+  min-height: 60px;
+  padding-left: 20px;
+  margin-right: 1px;
+  background-color: $base-color;
+}
+.client-days{
+  display: flex;
+  align-items: center;
+  width: 190px;
+  min-height: 60px;
+  padding-left: 20px;
+  background-color: $base-color;
+}
+.client-works__img{
+  margin-right: 10px;
+}
+.client-works__text{
+  font-family: $secondary-font;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #fff;
+}

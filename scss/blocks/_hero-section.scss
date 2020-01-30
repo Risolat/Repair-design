@@ -1,0 +1,63 @@
+.hero {
+  position: relative;
+  background:
+  linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+  url("../img/m-area.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - 91px);
+  color: #fff;
+}
+.instagram-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  background-color: #131313;
+}
+.instagram-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: left top;
+  transform: rotate(90deg) translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  font-family: 'FuturaDemiC', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #E3B873;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.instagram-link::after {
+  width: 50px;
+  height: 3px;
+  margin-left: 20px;
+  background-color: #E3B873;
+  content: "";
+}
+.hero__content {
+  width: 600px;
+  margin-left: 100px;
+}
+.hero__heading{
+  font-family: 'Yeseva One', 'Arial', sans-serif;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+}
+.heading-part{
+  color: #E3B873;
+}
+.hero__text{
+  width: 430px;
+  font-family: 'FuturaBookC', 'Arial', sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+}

@@ -1,0 +1,107 @@
+.address{
+  background:
+  linear-gradient(180deg, rgba(24, 24, 24, 0.9)
+   3.47%, rgba(24, 24, 24, 0.72) 100%), 
+  url("../img/address.png") no-repeat center center;
+  background-size: cover;
+}
+.address__container{
+  position: relative; 	
+  height: 1000px;
+}
+.client-form{
+  position: absolute;
+  top: -25%;
+  left: 278.5px;
+  width: 883px;
+  margin: 0 auto;
+  padding: 34px 122px 34px 180px;
+  background-color: $dark-color;
+  color: #fff
+}
+.client-fillings__wrapper{
+  display: flex;
+  flex-wrap: wrap;;
+}
+.client-fillings__heading{
+  font-family: $secondary-font;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.client-fillings__sections{
+  display: flex;
+  flex-direction: column;
+  margin-right: 58px;
+  margin-bottom: 57px;
+  color: #fff;
+}
+.client-fillings__label{
+  margin-bottom: 7px;
+  color: rgba(155, 151, 151, 0.5);
+}
+.client-fillings__input{
+  width: 231px;
+  padding: 8px 8px 8px 0;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: $dark-color;
+}
+.client-fillings__input::-webkit-input-placeholder{
+  color: #fff;
+}
+.client-fillings__input--question{
+  width: 520px;
+}
+.client-fillings__wrapper--2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.client-fillings__checkbox{
+  margin: 0 30px 50px;
+}
+.client-fillings__btn{
+  margin-bottom: 0;
+  font-family: FuturaDemiC;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+}
+.address__name{
+  width: 580px;
+  margin: 0 auto;
+  padding-top: 300px;
+  padding-bottom: 26px;
+  font-family: $secondary-font;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $base-color;
+}
+.social-media__wrapper{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.address__social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: $base-color;
+}
+.address__map{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,74 @@
+.sitenav {
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 25px 0;
+	background-color: #131313;
+}
+.sitenav__container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	line-height: 16px;
+}
+.logo {
+	margin-left: 30px;
+	margin-right: 96px;
+	font-size: 14px;
+	line-height: 16px;
+	color: #E3B873;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.sitenav__list{
+	display: flex;
+	flex-wrap: wrap;
+	width: 580px;
+	padding: 0;
+	margin: 0;
+	margin-right: 50px;
+	list-style-type: none;
+}
+.sitenav__item{
+	margin-left: 35px; 
+}
+.sitenav__item:first-child{
+	margin-left: 0;
+}
+.sitenav__link{
+	font-family: "FuturaBookC", "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+.sitenav__link:hover,
+.sitenav__item--active .sitenav__link{
+	color: #E3B873;
+}
+.sitenav__phone {
+	margin-right: 10px;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: right;
+	text-decoration-line: underline;
+	color: #e3b873;
+}
+.button-solid{
+	display: inline-block;
+	padding: 13px 33px;
+	font-size: 13px;
+	line-height: 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #E3B873;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+	border-radius: 2px;
+}	

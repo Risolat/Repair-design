@@ -1,0 +1,97 @@
+.repair{
+  padding-bottom: 60px;
+  background-color: #fff;
+}
+.repair__container{
+  padding-bottom: 200px;
+}
+.center-head-line::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 54px;
+  height: 29px;
+  padding: 0 10px;
+  background: #131313 url("../img/online.svg") no-repeat center center;
+  background-size: contain;
+  content: "";
+}
+.center-heading-dark{
+  margin: 0;
+  color: #222;
+}
+.center-head-line-2{
+  margin: 20px auto 60px;
+}
+.center-head-line-2::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 54px;
+  height: 29px;
+  padding: 0 10px;
+  background: #fff url("../img/repair.svg") no-repeat center center;
+  background-size: contain;
+  content: "";
+}
+.repair-list{
+  display: flex;
+  padding: 0 85px;
+  margin: 0;
+  list-style-type: none;
+}
+.repair-list__item{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.repair-list__item:last-child{
+  margin-right: 0;
+}
+.card{
+  position: absolute;
+  top: 67%;
+  width: 330px;
+  padding: 15px 31px 60px;
+  margin: 0 31px;
+  background-color: #fff;
+  box-shadow: 1px -2px 20px 0px rgba(0,0,0,0.1);
+}
+.repair-about__list{
+  list-style-type: disc;
+}
+.repair-about__item{
+  font-family: FuturaBookC;
+  font-size: 15px;
+  line-height: 25px;
+  color: #959595;
+}
+.repair-about__heading{
+  padding: 13px 0 13px 23px;
+  margin: 0;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+}
+.repair-price{
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  background: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
+.repair-price__text{
+  margin: 0;
+  padding: 17px 21px;
+  font-family: Yeseva One;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
